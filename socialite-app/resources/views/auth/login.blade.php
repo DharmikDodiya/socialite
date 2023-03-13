@@ -51,9 +51,15 @@
         </div>
 
         <div class="flex items-center justify-end mt-4">
-            <a class="btn" href="{{ url('auth.github') }}"
+            <a class="btn" href="{{ route('auth.github') }}"
                 style="background: black; padding: 10px; width: 100%; text-align: center; display: block; border-radius:4px; color: #ffffff;">
                 Login with Github
+            </a>
+        </div>
+        <div class="flex items-center justify-end mt-4">
+            <a class="btn" href="{{ url('auth/facebook') }}"
+                style="background: #3B5499; color: #ffffff; padding: 10px; width: 100%; text-align: center; display: block; border-radius:3px;">
+                Login with Facebook
             </a>
         </div>
     </form>
